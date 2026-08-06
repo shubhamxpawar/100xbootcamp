@@ -10,14 +10,15 @@
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
-    "@oclif/plugin-plugins": "^5"
+    "@oclif/plugin-plugins": "^5",
+    "execa": "^10.0.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1",
     "@oclif/test": "^4",
     "@types/chai": "^4",
     "@types/mocha": "^10",
-    "@types/node": "^18",
+    "@types/node": "^26.1.2",
     "chai": "^4",
     "eslint": "^9",
     "eslint-config-oclif": "^6",
@@ -64,7 +65,7 @@
     "prepack": "oclif manifest && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
-    "dev" : "./bin/dev.js"
+    "dev": "./bin/dev.js"
   },
   "types": "dist/index.d.ts"
 }
