@@ -9,12 +9,11 @@ a cli that simply counts number of words in files
 [![Downloads/week](https://img.shields.io/npm/dw/simple-word-counter.svg)](https://npmjs.org/package/simple-word-counter)
 
 
-<!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
-<!-- tocstop -->
+
 # Usage
-<!-- usage -->
+
 ```sh-session
 $ npm install -g simple-word-counter
 $ simple-word-counter COMMAND
@@ -24,24 +23,27 @@ simple-word-counter/0.0.0 linux-x64 node-v24.14.0
 $ simple-word-counter --help [COMMAND]
 USAGE
   $ simple-word-counter COMMAND
-...
 ```
-<!-- usagestop -->
+
 # Commands
-<!-- commands -->
-* [`simple-word-counter hello PERSON`](#simple-word-counter-hello-person)
-* [`simple-word-counter hello world`](#simple-word-counter-hello-world)
-* [`simple-word-counter help [COMMAND]`](#simple-word-counter-help-command)
-* [`simple-word-counter plugins`](#simple-word-counter-plugins)
-* [`simple-word-counter plugins add PLUGIN`](#simple-word-counter-plugins-add-plugin)
-* [`simple-word-counter plugins:inspect PLUGIN...`](#simple-word-counter-pluginsinspect-plugin)
-* [`simple-word-counter plugins install PLUGIN`](#simple-word-counter-plugins-install-plugin)
-* [`simple-word-counter plugins link PATH`](#simple-word-counter-plugins-link-path)
-* [`simple-word-counter plugins remove [PLUGIN]`](#simple-word-counter-plugins-remove-plugin)
-* [`simple-word-counter plugins reset`](#simple-word-counter-plugins-reset)
-* [`simple-word-counter plugins uninstall [PLUGIN]`](#simple-word-counter-plugins-uninstall-plugin)
-* [`simple-word-counter plugins unlink [PLUGIN]`](#simple-word-counter-plugins-unlink-plugin)
-* [`simple-word-counter plugins update`](#simple-word-counter-plugins-update)
+
+- [simple-word-counter](#simple-word-counter)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`simple-word-counter hello PERSON`](#simple-word-counter-hello-person)
+  - [`simple-word-counter hello world`](#simple-word-counter-hello-world)
+  - [`simple-word-counter help [COMMAND]`](#simple-word-counter-help-command)
+  - [`simple-word-counter plugins`](#simple-word-counter-plugins)
+  - [`simple-word-counter plugins add PLUGIN`](#simple-word-counter-plugins-add-plugin)
+  - [`simple-word-counter plugins:inspect PLUGIN...`](#simple-word-counter-pluginsinspect-plugin)
+  - [`simple-word-counter plugins install PLUGIN`](#simple-word-counter-plugins-install-plugin)
+  - [`simple-word-counter plugins link PATH`](#simple-word-counter-plugins-link-path)
+  - [`simple-word-counter plugins remove [PLUGIN]`](#simple-word-counter-plugins-remove-plugin)
+  - [`simple-word-counter plugins reset`](#simple-word-counter-plugins-reset)
+  - [`simple-word-counter plugins uninstall [PLUGIN]`](#simple-word-counter-plugins-uninstall-plugin)
+  - [`simple-word-counter plugins unlink [PLUGIN]`](#simple-word-counter-plugins-unlink-plugin)
+  - [`simple-word-counter plugins update`](#simple-word-counter-plugins-update)
+
 
 ## `simple-word-counter hello PERSON`
 
@@ -393,5 +395,4 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.86/src/commands/plugins/update.ts)_
-<!-- commandsstop -->
+
