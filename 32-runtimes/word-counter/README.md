@@ -44,7 +44,6 @@ USAGE
   - [`simple-word-counter plugins unlink [PLUGIN]`](#simple-word-counter-plugins-unlink-plugin)
   - [`simple-word-counter plugins update`](#simple-word-counter-plugins-update)
 
-
 ## `simple-word-counter hello PERSON`
 
 Say hello
